@@ -14,12 +14,39 @@ body{
 .iconePais{
   height: 30px;
   width: auto;
-  border: black 1px solid;
+  border: gray 1px solid;
   border-radius: 6px;
   margin-left: 5px;  
-}/*
+  margin-top:5px;
+  margin-bottom:5px;
+}
 .iconePais:hover{
-	height: 45px;
-	width: auto;
-	background-color: gray: 
-}*/
+	border-top:1px solid black ;
+	border-right:1px solid black ;
+	border-left:1px solid black ;
+	border-bottom: 1px solid lightgrey;
+}
+.fixa{
+	height: 60px;	
+}
+
+.container{
+	margin: 15px;
+}
+
+.textoImg{
+	display: flex;
+	justify-content: space-around;
+
+}
+.imgIndex{
+	margin right: 15px;
+	padding-top: 30px;
+}
+.paragrafoImg{
+	margin: 15px;
+}
+.paragrafo3Img{
+	margin-top: -20px;
+	margin-left: 15px;
+}
